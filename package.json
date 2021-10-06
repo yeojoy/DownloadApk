@@ -1,0 +1,26 @@
+{
+  "name": "download-android-apk",
+  "version": "1.0.0",
+  "description": "The page is for downloading android .apk file.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeojoy/DownloadApk.git"
+  },
+  "keywords": [
+    "server",
+    "android",
+    "apk",
+    "download"
+  ],
+  "author": "yeojong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeojoy/DownloadApk/issues"
+  },
+  "homepage": "https://github.com/yeojoy/DownloadApk#readme"
+}
