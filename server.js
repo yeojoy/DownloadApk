@@ -10,7 +10,7 @@ app.get('/info', function(req, res) {
     res.json({
         version: "1.0.0",
         versionCode: 2,
-        downloadLink: ("http://%s:%s/download", ip, port)
+        downloadLink: "http://" + ip + ":" + port + "/download"
     });
 });
 
@@ -21,5 +21,5 @@ app.get('/download', function(req, res) {
 
 var server = app.listen(port, ip, function() {
     var port = server.address().port;
-    console.log("Server started at http://%s:%s", ip, port);
+    console.log("Server started at http://%s:%d", ip, port);
 });
